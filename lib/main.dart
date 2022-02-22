@@ -15,7 +15,9 @@ Future<void> main() async {
 
   loggedIn =
       (prefs?.getBool("loggedIn") == null) ? false : prefs?.getBool("loggedIn");
-  user = User.fromJson(jsonDecode((prefs?.getString("user"))!));
+  user = (prefs?.getString("user") != null)
+      ? User.fromJson(jsonDecode((prefs?.getString("user"))!))
+      : null;
   runApp(const MyApp());
 }
 
