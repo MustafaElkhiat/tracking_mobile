@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Cairo",
+    "value": 1,
+    "latitude": "30.033333",
+    "longitude": "31.233334"
+  },
+  {
+    "label": "Alexandria",
+    "value": 2,
+    "latitude": "31.21564",
+    "longitude": "29.95527"
+  },
+  {
+    "label": "Damietta",
+    "value": 3,
+    "latitude": "31.41648",
+    "longitude": "31.81332"
+  },
+  {
+    "label": "Suez",
+    "value": 4,
+    "latitude": "29.97371",
+    "longitude": "32.52627"
+  },
+  {
+    "label": "PortSaid",
+    "value": 5,
+    "latitude": "31.25654",
+    "longitude": "32.28411"
+  }
+]
